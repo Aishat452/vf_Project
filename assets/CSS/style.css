@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+header .navsection{
+    position: fixed;
+    width: 100%;
+}
+
+section .socialicons{
+    background-color: rgb(92, 182, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li{
+    color: #fff;
+    list-style: none;
+    font-size: 15px;
+    margin: 5px;
+}
+
+ul div{
+    display: flex;
+}
+
+.link{
+    padding: 0 10px;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+nav .logo{
+    font-family: Dancing Script;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(255, 0, 191);
+}
+
+.navigation{
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.navigation li{
+    color: black;
+}
+
+/************************* HERO **********************/
+
+#hero{
+    /* background-image: url(../images/black-doctors-smile.png) linear-gradient(rgb(205, 205, 255) rgba(255, 255, 255, 0.555));
+    background-size: cover; */
+    height: 80%;
+    width: 100%;
+}
