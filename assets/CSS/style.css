@@ -6,6 +6,11 @@
     font-weight: 400;
 }
 
+
+body{
+    background-color: #dcdcff6c;
+}
+
 header .navsection {
     position: fixed;
     width: 100%;
@@ -88,27 +93,33 @@ nav .logo {
 /************************* HERO **********************/
 
 .hero {
-    background-image: url(../images/black-doctors-smile.png);
+    background-image: url(../images/newdoctor.jpg);
     background-size: cover;
+    /* background-attachment: fixed; */
     height: 85vh;
     width: 100%;
     padding-top: 10rem;
 }
 
 .hero div{
-    margin: 7rem 0 0 10rem;
+    margin: 6rem 0 0 10rem;
 }
 
 .hero div h1{
     font-family: Roboto;
     font-weight: 600;
     margin-bottom: 1rem;
+    font-size: 1.7rem;
 }
 
 /************************* MAIN AREA **********************/
 
 main{
     margin: 5rem 0 5rem;
+}
+
+.offer{
+    margin: 10rem 0;
 }
 
 .offer h1{
@@ -137,12 +148,30 @@ p{
 
 section .box{
     text-align: center;
-    background-color: rgba(177, 177, 177, 0.205);
+    background-color: rgba(177, 177, 177, 0.301);
     box-shadow: 3px 3px 8px #888888;
 }
 
-.box .top{
-    background-image: url(../images/black-doctors-smile.png);
+#box1 .top{
+    background-image: url(../images/doctor&child.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 15rem;
+    border-bottom: solid .3rem rgb(92, 182, 255);
+    position: relative;
+}
+
+#box2 .top{
+    background-image: url(../images/doctor&lady.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 15rem;
+    border-bottom: solid .3rem rgb(92, 182, 255);
+    position: relative;
+}
+
+#box3 .top{
+    background-image: url(../images/doctor_checking_bp.jpg);
     background-size: cover;
     width: 100%;
     height: 15rem;
@@ -157,6 +186,38 @@ section .box{
 .top div{
     position: absolute;
     top: 13rem;
-    background-color: #ffffff73;
+    background-color: #ffffff85;
     width: 100%;
+}
+
+/************************* FOOTER AREA **********************/
+
+footer .bottom{
+    display: flex;
+    margin: 2rem 5rem;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.footericons{
+    display: flex;
+    background-color: #fff;
+    box-shadow: 3px 3px 8px #888888;
+    padding: .6rem;
+}
+
+.footericons div i{
+    font-size: 5rem;
+    margin: 2.2rem 1rem;
+    color: rgb(92, 182, 255);
+}
+
+.footericons div h3{
+    font-family: Roboto;
+    font-weight: 600;
+    padding: .8rem 0;
+}
+
+.footericons div p{
+    font-size: 13px;
 }
