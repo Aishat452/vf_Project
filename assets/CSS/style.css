@@ -1,22 +1,38 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Poppins;
-  font-weight: 400;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-weight: 400;
 }
 
-header .navsection{
+header .navsection {
     position: fixed;
     width: 100%;
+    z-index: 999999;
 }
 
-section .socialicons{
+/*********************** TOP NAV ************************/
+
+section .socialicons {
     background-color: rgb(92, 182, 255);
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
 }
+
+.socialicons ul li{
+    font-size: 15px;
+}
+
+.socialicons ul li{
+    margin: 8px;
+}
+.socialicons ul li a{
+    color: #fff;
+}
+
+/*********************** NAV GENERAL ************************/
 
 ul {
     display: flex;
@@ -24,46 +40,123 @@ ul {
     justify-content: space-between;
 }
 
-ul li{
+li{
     color: #fff;
     list-style: none;
-    font-size: 15px;
+    font-size: 18px;
     margin: 5px;
 }
 
-ul div{
-    display: flex;
-}
-
-.link{
-    padding: 0 10px;
-}
-
-ul a{
+ul a {
     text-decoration: none;
 }
 
-nav .logo{
+/*********************** NAV 2 ************************/
+
+.navigation {
+    background-color: #fff;
+    padding: 10px 4rem;
+    height: 4rem;
+}
+nav .logo {
     font-family: Dancing Script;
     text-decoration: none;
     font-weight: 600;
-    color: rgb(255, 0, 191);
+    color: #000;
 }
 
-.navigation{
-    background-color: #fff;
-    padding: 0 10px;
+.navigation div {
+    display: flex;
 }
 
-.navigation li{
+.links{
     color: black;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.navigation div li{
+    margin: 5px;
+}
+
+.navigation div li :hover{
+    background-color: rgb(92, 182, 255);
+    border-radius: 3px;
+    color: #fff;
 }
 
 /************************* HERO **********************/
 
-#hero{
-    /* background-image: url(../images/black-doctors-smile.png) linear-gradient(rgb(205, 205, 255) rgba(255, 255, 255, 0.555));
-    background-size: cover; */
-    height: 80%;
+.hero {
+    background-image: url(../images/black-doctors-smile.png);
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+    padding-top: 10rem;
+}
+
+.hero div{
+    margin: 7rem 0 0 10rem;
+}
+
+.hero div h1{
+    font-family: Roboto;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/************************* MAIN AREA **********************/
+
+main{
+    margin: 5rem 0 5rem;
+}
+
+.offer h1{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.9rem;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.offer p{
+    text-align: center;
+    margin: 1rem 15rem;
+}
+
+.boxes {
+    display: flex;
+    margin: 5rem;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+section .box{
+    text-align: center;
+    background-color: rgba(177, 177, 177, 0.205);
+    box-shadow: 3px 3px 8px #888888;
+}
+
+.box .top{
+    background-image: url(../images/black-doctors-smile.png);
+    background-size: cover;
+    width: 100%;
+    height: 15rem;
+    border-bottom: solid .3rem rgb(92, 182, 255);
+    position: relative;
+}
+
+.box p{
+    padding: .5rem .2rem;
+}
+
+.top div{
+    position: absolute;
+    top: 13rem;
+    background-color: #ffffff73;
     width: 100%;
 }
