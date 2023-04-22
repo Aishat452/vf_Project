@@ -6,7 +6,6 @@
     font-weight: 400;
 }
 
-
 body{
     background-color: #dcdcff6c;
 }
@@ -28,11 +27,9 @@ section .socialicons {
 
 .socialicons ul li{
     font-size: 15px;
-}
-
-.socialicons ul li{
     margin: 8px;
 }
+
 .socialicons ul li a{
     color: #fff;
 }
@@ -63,6 +60,7 @@ ul a {
     padding: 10px 4rem;
     height: 4rem;
 }
+
 nav .logo {
     font-family: Dancing Script;
     text-decoration: none;
@@ -78,9 +76,6 @@ nav .logo {
     color: black;
     padding: 8px;
     font-size: 15px;
-}
-
-.navigation div li{
     margin: 5px;
 }
 
