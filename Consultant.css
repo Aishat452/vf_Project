@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;  
+    padding: 0;
+    font-family: 'montserrat';
+    letter-spacing: -0.5px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.companyinfo{
+    width: 100%;
+    height: 25vh;
+    margin-top: 30px;
+    margin-bottom: 0%;
+}
+
+.infocontainer{
+    display: flex;
+    max-width: 1074px;
+    align-content: center;
+    margin: auto;
+}
+
+.location,
+.phone,
+.email{
+    display: flex;
+    max-width: 400px;  
+    
+}
+
+.location, .phone, .email:not(:last-child) {
+    margin-right: 204px;
+}
+
+.location h3{
+    margin-left: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #999999;  
+}
+
+.phone h3{
+    margin-left: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #999999;  
+}
+
+.email h3{
+    margin-left: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #999999;  
+}
+
+.infocontainer i{
+    color: #060614; 
+    margin-top: 4px; 
+  }
+
+.contact .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 500px;
+    margin-left: 96px;
+    margin-bottom: 120px;  
+}
+
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+.form{
+    position: relative;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 537px;
+    gap: 16px;
+    align-items: center;
+    background-color: #def7fe;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.contact .form h2{
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 18px;
+    color: #060614;
+
+}
+
+
+::placeholder{
+    color: lightgray;
+    font-weight: 400;
+}
+
+input, textarea {
+    width: 380px;
+    padding: 12px 8px;
+    outline: none;
+    border: 0px;
+    border-radius: 4px;
+    margin-top: 12px;
+}
+
+button{
+    width: auto;
+    margin-top: 16px;
+    padding: 12px 24px;
+    text-align: center;
+    background: #03b8f4;
+    color: white;
+    border-radius: 4px;
+    border: solid #03b8f4;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+}
+
