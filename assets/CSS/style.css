@@ -89,15 +89,15 @@ nav .logo {
 
 .hero {
     background-image: url(../images/newdoctor.jpg);
-    background-size: cover;
-    /* background-attachment: fixed; */
-    height: 85vh;
+    background-size: 100% 85vh;
+    background-repeat: no-repeat;
+    height: 80vh;
     width: 100%;
     padding-top: 10rem;
 }
 
 .hero div{
-    margin: 6rem 0 0 10rem;
+    margin: 12rem 0 0 8rem;
 }
 
 .hero div h1{
@@ -299,9 +299,126 @@ footer .bottom{
     text-align: center;
   }
   
-/************************* MAIN SECTION CONTACT PAGE **********************/
+/************************* MAIN SECTION CONTACT PAGE (BOXES) **********************/
 
 
 .contactMain {
     margin: 5rem 0 5rem;
+}
+
+iframe{
+    width: 100%;
+    height: 80vh;
+    border:0;
+    padding-top: 5rem;
+    border-radius: 1rem;
+}
+
+span{
+    color: rgb(92, 182, 255);
+}
+
+footer .contactbottom{
+    display: flex;
+    justify-content: center;
+}
+
+.contactfooterbox{
+    background-color: #fff;
+    box-shadow: 3px 3px 8px #888888;
+    padding: .6rem;
+}
+
+.contactfooterbox div i{
+    font-size: 2rem;
+    margin: 0.2rem 6.7rem;
+    color: rgb(92, 182, 255);
+}
+
+.contactfooterbox div h3{
+    font-family: Roboto;
+    font-weight: 600;
+    padding: .8rem 0;
+    text-align: center;
+}
+
+.contactfooterbox div p{
+    font-size: 13px;
+    text-align: center;
+}
+
+
+/************************* CONSULTATION PAGE **********************/
+ 
+#consultmain{
+    margin: 0;
+    padding-top: 8rem;
+}
+
+.contact{
+    display: flex;
+    margin-left: 12rem;
+}
+
+.consultForm{
+    background-color: hsl(194, 100%, 94%);
+    padding: 3rem 2rem;
+}
+.mapping img{
+    width: 30rem;
+    height: 32rem;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+input, textarea {
+    width: 25rem;
+    padding: .8rem;
+    outline: none;
+    border: 0px;
+    border-radius: .4rem;
+    margin-bottom: 1.2rem;
+    resize: none;
+}
+
+textarea{
+    height: 7em;
+}
+
+button{
+    width: auto;
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+    text-align: center;
+    background: #03b8f4;
+    color: white;
+    border-radius: .4rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/************************* LOGIN PAGE **********************/
+
+
+#login{
+    margin: 0;
+    padding-top: 8rem;
+}
+
+.loginform{
+    margin-left: 14rem;
+}
+
+.loginform h2{
+    text-align: center;
+}
+
+.login2 label{
+    text-align: center;
 }
